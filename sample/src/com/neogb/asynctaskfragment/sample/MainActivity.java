@@ -79,7 +79,7 @@ public class MainActivity extends FragmentActivity {
 
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View view = inflater.inflate(R.layout.fragment3, container, false);
+            View view = inflater.inflate(R.layout.fragment1, container, false);
             view.findViewById(android.R.id.empty).setOnClickListener(new OnClickListener() {
 
                 @Override
@@ -269,6 +269,10 @@ public class MainActivity extends FragmentActivity {
         public void onSaveInstanceState(Bundle outState) {
             outState.putBoolean(STATE_BUTTON_ENABLE, mButton.isEnabled());
         }
+
+    }
+
+    public static class MyFragment extends AsyncTaskFragment {
 
     }
 
