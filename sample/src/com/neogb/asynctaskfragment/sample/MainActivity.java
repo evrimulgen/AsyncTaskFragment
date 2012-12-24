@@ -272,8 +272,4 @@ public class MainActivity extends FragmentActivity {
 
     }
 
-    public static class MyFragment extends AsyncTaskFragment {
-
-    }
-
 }
