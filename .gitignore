@@ -1,0 +1,25 @@
+#Android generated
+bin
+gen
+
+#Library directory
+libs
+
+#Eclipse
+.project
+.classpath
+.settings
+
+#Others editors
+*~
+
+#Command line
+build.xml
+proguard-project.txt
+
+#Mac specific
+.DS_Store
+
+#Mercurial
+.hg
+.hgignore
